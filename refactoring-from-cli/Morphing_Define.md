@@ -57,6 +57,7 @@ $ export KEY="CONFIG_SOME_KEY_VALUE" ; sgrep "$KEY" * | cut -f1 -d':' | uniq | w
 ```
 
 Note: sgrep is an alias.
+
 Note: omitted details like the default values having different types, even typedefs, and other details
       about using them in both C and C++ code.
 
